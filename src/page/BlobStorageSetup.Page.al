@@ -2,7 +2,7 @@ page 50101 "POCABS_BlobStorage Setup List"
 {
 
     ApplicationArea = All;
-    Caption = 'POCABS_BlobStorage Setup List';
+    Caption = 'BlobStorage Setup';
     PageType = List;
     SourceTable = "POCABS_BlobStorage Setup";
     UsageCategory = Lists;
