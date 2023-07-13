@@ -47,21 +47,7 @@ page 50101 "POCABS_BlobStorage Setup List"
     {
         area(Processing)
         {
-            action(ViewContainers)
-            {
-                ApplicationArea = All;
-                Caption = 'View Containers';
-                Promoted = true;
-                PromotedCategory = Process;
-                PromotedIsBig = true;
-                Image = Export;
-                trigger OnAction()
-                var
-                    testblob: Codeunit TestBlobStorage;
-                Begin
-                    testblob.ViewContainers();
-                End;
-            }
+
             action(SetKeyOnIsolatedStorage)
             {
                 ApplicationArea = All;
